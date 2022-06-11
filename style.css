@@ -54,7 +54,7 @@ body{
     padding-top:0px;
 }
 
-button{
+#main-sign{
     background-color: #3882f6;
     border-radius: 10px;
     padding: 10px;
@@ -104,7 +104,7 @@ button{
     font-weight: bolder;
 }
 
-#main-call{
+.call-action{
     display: flex;
     margin: 60px;
     border-radius: 5px;
@@ -113,17 +113,27 @@ button{
     justify-content: space-evenly;
 }
 
+
 #call-text{
     color:#F9FAF8;
     font-weight: bold;
 }
 
+
 #jeez{
-    display: inline;
+    color:#F9FAF8;
+
 }
 
+
 #call-signup{
-    justify-content: right;
+    border-color: #E5E7EB;
+    color:white;
+    font-size: 14px;
+    background-color: #3882f6;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 80px;
 }
 
 footer{
