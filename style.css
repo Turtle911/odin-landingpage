@@ -122,7 +122,7 @@ body{
 
 #jeez{
     color:#F9FAF8;
-
+    font-weight: 200;
 }
 
 
@@ -133,7 +133,8 @@ body{
     background-color: #3882f6;
     font-weight: bolder;
     border-radius: 10px;
-    width: 80px;
+    width: 100px;
+    height : 40px;
 }
 
 footer{
