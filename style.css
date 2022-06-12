@@ -19,7 +19,7 @@ body{
     color: #F9FAF8;
 }
 
-.header-links a, a:hover, a:focus, a:active {
+.header-links a{
     color : #E5E7EB;
     text-decoration: none;
     font-size : 18px;
@@ -96,6 +96,8 @@ body{
     font-style: italic;
     color: #1f2937;
     display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 #name{
@@ -107,26 +109,29 @@ body{
 .call-action{
     display: flex;
     margin: 60px;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: #3882f6;
-    padding: 30px;
-    justify-content: space-evenly;
+    padding: 10px;
 }
 
 
-#call-text{
+.call-text{
     color:#F9FAF8;
     font-weight: bold;
+    padding-bottom: 0px;
+    margin-bottom: 2px;
 }
 
 
-#jeez{
+.jeez{
     color:#F9FAF8;
     font-weight: 200;
+    padding-top:0px;
+    margin-top: 0px;
 }
 
 
-#call-signup{
+.call-signup{
     border-color: #E5E7EB;
     color:white;
     font-size: 14px;
@@ -135,6 +140,22 @@ body{
     border-radius: 10px;
     width: 100px;
     height : 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.call-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.eg{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: flex-end;
+    align-items: center;
 }
 
 footer{
